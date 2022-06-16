@@ -1,0 +1,18 @@
+#include<stdio.h>
+int main()
+{int MATH,CHE,PPS,FOREIGN,GENAPP,TOTAL,PERCENTAGE;
+printf("enter marks obtained in MATHEMATICS");
+scanf("%d",&MATH);
+printf("enter marks obtained in CHEMISTRY");
+scanf("%d",&CHE);
+printf("enter marks obtained in PPS");
+scanf("%d",&PPS);
+printf("enter marks obtained in FOREIGN");
+scanf("%d",&FOREIGN);
+printf("enter marks obtained in GENAPP");
+scanf("%d",&GENAPP);
+TOTAL=MATH+CHE+PPS+FOREIGN+GENAPP;
+PERCENTAGE=(TOTAL/500)*100;
+printf("total marks obtained is=%d",TOTAL);
+printf("the percentage is=%d",PERCENTAGE);
+}
